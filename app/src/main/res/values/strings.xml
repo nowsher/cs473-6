@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">CV</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    <string name="career">/<strong/>Completed/<strong/> on campus </string>-->
+<!--    <string name="career">-->
+<!--        <![CDATA[-->
+<!--        <h1>Completed</h1>on campus-->
+<!--        ]]>-->
+<!--    </string>-->
 </resources>
