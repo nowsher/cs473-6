@@ -6,10 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.core.text.bold
 import androidx.core.text.buildSpannedString
 import androidx.core.text.italic
 import androidx.core.text.underline
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.android.synthetic.main.fragment_contact.*
 import kotlinx.android.synthetic.main.fragment_home.*
 
@@ -47,6 +49,10 @@ class HomeFragment : Fragment() {
         var career1 = view!!.findViewById<TextView>(R.id.textViewExperience)
         career1.text = newText1
 
+        var fab = view!!.findViewById<FloatingActionButton>(R.id.floatingActionButton)
+        fab.setOnClickListener{
+            Toast.makeText(context, "This is a Floating Action Button", Toast.LENGTH_LONG).show()
+        }
 
         return view
     }
