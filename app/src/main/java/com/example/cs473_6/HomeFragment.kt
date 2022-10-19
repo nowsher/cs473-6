@@ -9,11 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.text.bold
 import androidx.core.text.buildSpannedString
-import androidx.core.text.italic
-import androidx.core.text.underline
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import kotlinx.android.synthetic.main.fragment_contact.*
-import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomeFragment : Fragment() {
 
@@ -31,7 +27,7 @@ class HomeFragment : Fragment() {
             bold { append("W2 ") }
             append("employemnt).")
         }
-        var career = view!!.findViewById<TextView>(R.id.textViewCareer)
+        var career = view!!.findViewById<TextView>(R.id.textViewAbout)
         career.text = newText
 
         val newText1 = buildSpannedString {

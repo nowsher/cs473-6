@@ -62,7 +62,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textViewDesig">
 
             <TextView
-                android:id="@+id/textViewExpTitle"
+                android:id="@+id/textViewAboutTitle"
                 android:layout_width="84dp"
                 android:layout_height="wrap_content"
                 android:text="Career note"
@@ -70,7 +70,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textViewCareer"
+                android:id="@+id/textViewAbout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
